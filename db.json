@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "theanh",
+      "password": "123455"
+    },
+    {
+      "email": "theanhbui345@gmail.com",
+      "password": "$2a$10$yC7dK8X8ZaWcFoO3MXH03uYyV4ljUrfqK1Fwq/qfG3FjfHDr8lhHu",
+      "id": "NnJss70"
+    },
+    {
+      "email": "theanhbui3456@gmail.com",
+      "password": "$2a$10$lnik18SghvB/GiYfJhJlMOWMbUCf.EUrZOyJ9WMeSO6/3FTK4hZ3O",
+      "name": "Nấm",
+      "pictures": "helo world",
+      "id": "pri6CD1"
+    }
+  ],
+  "products" : [
+    {
+      "id" : "1",
+      "name" : "Nấm",
+      "price" : 2000000,
+      "description" : "Nấm linh chi thảo dược thiên nhiên aliadanh và cây đèn thần"
+    }
+  ]
+}
