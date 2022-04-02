@@ -1,10 +1,19 @@
-import { createStore,combineReducers } from 'redux';
+import { configureStore } from '@reduxjs/toolkit';
+import { TypedUseSelectorHook, useSelector as useReduxSelector,
+    useDispatch as useReduxDispatch } from 'react-redux';
+import productReducer from './../features/home/home.slice';
 
-const rootReducer = combineReducers({
+const store = configureStore({
+    reducer : {
+        products : productReducer
+    },
+    devTools : process.env.NODE_ENV !== 'production'
+})
 
-});
-
-const store = createStore(rootReducer);
+type RootState = ReturnType<typeof store.getState>
+type Dispatch = typeof store.dispatch
+export const useSelector : TypedUseSelectorHook<RootState> = useReduxSelector
+export const useDispatch = () => useReduxDispatch<Dispatch>()
 
 export default store;
 
