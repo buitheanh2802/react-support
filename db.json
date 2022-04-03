@@ -24,6 +24,18 @@
       "name" : "Nấm",
       "price" : 2000000,
       "description" : "Nấm linh chi thảo dược thiên nhiên aliadanh và cây đèn thần"
+    },
+    {
+      "id" : "2",
+      "name" : "Nấm linh chi",
+      "price" : 2000000,
+      "description" : "Nấm linh chi thảo dược thiên nhiên aliadanh và cây đèn thần"
+    },
+    {
+      "id" : "3",
+      "name" : "Hoa hồng",
+      "price" : 2000000,
+      "description" : "Nấm linh chi thảo dược thiên nhiên aliadanh và cây đèn thần"
     }
   ]
 }

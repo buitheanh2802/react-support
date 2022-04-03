@@ -8,7 +8,7 @@ type State = {
 
 const mySlice = createSlice({
     name: 'product',
-    initialState: { loading: false } as State,
+    initialState: { loading: false,products : [] } as State,
     reducers: {
 
     },
