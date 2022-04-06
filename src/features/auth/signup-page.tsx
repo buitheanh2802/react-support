@@ -1,10 +1,18 @@
 import React from 'react';
+import { Form,Input,Button,Checkbox } from 'antd';
+import { useForm } from 'react-hook-form';
 
-const Signup = () => {
+type props = {
+
+}
+
+const Signup : React.FC<props> = () : JSX.Element => {
     return (
-        <div>
-            
-        </div>
+        <Form>
+            <Form.Item>
+                
+            </Form.Item>
+        </Form>
     );
 };
 

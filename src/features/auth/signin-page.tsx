@@ -3,7 +3,7 @@ import React from 'react';
 type props = {
 
 }
-const LoginPage : React.FC<props> = () => {
+const SignIn : React.FC<props> = () => {
     return (
         <div>
             
@@ -11,4 +11,4 @@ const LoginPage : React.FC<props> = () => {
     );
 };
 
-export default LoginPage;
+export default SignIn;
